@@ -1,0 +1,20 @@
+{
+  "name": "zomato-watson",
+  "version": "1.0.0",
+  "description": "watson intelli search on zomato",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankur Nair",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "cors": "^2.8.1",
+    "curlrequest": "^1.0.1",
+    "express": "^4.15.0",
+    "http": "0.0.0",
+    "q": "^1.4.1",
+    "request": "^2.79.0"
+  }
+}
