@@ -10,5 +10,26 @@
                 </div>
             </div>
         </div>
+        <div id="veil" ng-show="isLoading"></div>
+        <div id="feedLoading" ng-show="isLoading">{{loadingText}}...</div>
+        <div ng-if="isSearched" class="row list-group">
+            <div class="item  col-xs-4 col-lg-4" ng-repeat="restaurant in restaurantList">
+                <div class="thumbnail">
+                    <img class="group list-group-image" ng-src="{{restaurant.restaurant.thumb}}" alt="" />
+                    <div class="caption">
+                        <h4 class="group inner list-group-item-heading">{{restaurant.restaurant.name}}</h4>
+                        <p class="group inner list-group-item-text">{{restaurant.restaurant.cuisines}}</p>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <p class="lead">{{restaurant.restaurant.currency}} {{restaurant.restaurant.average_cost_for_two}}</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <a class="btn btn-success" href="{{restaurant.restaurant.url}}">Visit Zomato</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </header>

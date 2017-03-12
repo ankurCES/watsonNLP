@@ -1,0 +1,20 @@
+{
+  "name": "watson-zomato",
+  "description": "A starter project that combines AngularJS, Bootstrap, UI Router, UI Bootstrap, RequireJS in for starting building your website.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Ankur"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ankurCES/watsonNLP",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sham-spinner": "^0.0.13"
+  }
+}

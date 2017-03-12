@@ -2,3 +2,4 @@
 node_modules/*
 daemon/*
 .DS_Store/*
+bower_components/*
